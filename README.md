@@ -1,0 +1,1 @@
+# ESLint config for linting Typescript projects
