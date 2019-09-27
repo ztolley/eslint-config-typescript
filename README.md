@@ -1,5 +1,5 @@
 # ESLint config for linting Typescript projects
 
 module.exports = {
-  extends: ['@scropt/eslint-ts']
+extends: ['@ztolley/eslint-config-typescript']
 }

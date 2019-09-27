@@ -1,6 +1,6 @@
 {
-  "name": "@scropt/eslint-ts",
-  "version": "0.0.1",
+  "name": "@ztolley/eslint-config-typescript",
+  "version": "0.1.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -15,9 +15,9 @@
   ],
   "author": "Zac Tolley (https://twitter.com/@ztolley)",
   "bugs": {
-    "url": "https://github.com/ztolley/eslint-ts/issues"
+    "url": "https://github.com/ztolley/eslint-config-typescript/issues"
   },
-  "homepage": "https://github.com/ztolley/eslint-ts",
+  "homepage": "https://github.com/ztolley/eslint-config-typescript",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "eslint-config-airbnb": "^18.0.1",
