@@ -1,5 +1,12 @@
 # ESLint config for linting Typescript projects
 
-module.exports = {
-extends: ['@ztolley/eslint-config-typescript']
+```
+package.json
+------------
+
+"eslintConfig": {
+  "extends": [
+    "@ztolley/eslint-config-typescript"
+  ]
 }
+```
