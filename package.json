@@ -1,6 +1,6 @@
 {
   "name": "@ztolley/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/ztolley/eslint-config-typescript",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.3.0",
     "eslint-junit": "^1.0.1",
@@ -27,7 +29,10 @@
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.15.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
   },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.1.0"
