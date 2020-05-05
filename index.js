@@ -18,6 +18,16 @@ module.exports = {
   plugins: ["@typescript-eslint", "prettier", "jest"],
   rules: {
     camelCase: 0,
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
     "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
