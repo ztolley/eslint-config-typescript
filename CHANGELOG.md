@@ -1,3 +1,8 @@
+# 2.0.0
+25 Nov 2020
+* Major dependency updates
+* Add support for Typescript 4
+
 # 1.0.0
 05 May 2020
 
